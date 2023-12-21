@@ -9,6 +9,7 @@ import Subtitle from '../shared/Subtitle'
 import sriLankaImg from './../assets/images/srilanka.png'
 import SearchBar from '../shared/SearchBar'
 import ServicesList from '../Services/ServicesList'
+import FeaturedTourList from '../featuredTours/FeaturedTourList'
 
 const Home = () => {
   return (
@@ -60,6 +61,21 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+
+      {/* ------------Fearured Section------------ */}
+
+      <section>
+      <Container>
+          <Row>
+            <Col lg='12' className='mb5'>
+              <Subtitle subtitle={'Explore'}/>
+                    <h2 className='featured__tour-title'>Our featured tours</h2>
+            </Col>
+            <FeaturedTourList/>
+          </Row>
+      </Container>
+
+    </section>
 
     </>
   )

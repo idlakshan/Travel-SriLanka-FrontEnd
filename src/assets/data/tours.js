@@ -14,7 +14,7 @@ const tours = [
     title: "Nine Arches Bridge",
     city: "Ella",
     distance: 180,
-    price: 28,
+    price: 70,
     maxGroupSize: 10,
     desc: "This bridge is 300 feet in length, 25 feet in width and 80-100 feet in height. It is one of the best examples of colonial-era railway construction in the country. The Bridge can be reached by travelling 2km on Gotuwala road starting from Halpe Textile centre in Badulla Bandarawela road.",
     reviews: [
@@ -36,7 +36,7 @@ const tours = [
     title: "The Temple of the Sacred Tooth",
     city: "Kandy",
     distance: 120,
-    price: 45,
+    price: 30,
     maxGroupSize: 8,
     desc: "The Temple of the Sacred Tooth Relic is a world-renowned place of worship, where the left Canine tooth of Gautama Buddha is enshrined. The temple which is venerated by thousands of local & foreign devotees and tourists daily was named as a world heritage by UNESCO in 1988.",
     reviews: [
@@ -54,7 +54,7 @@ const tours = [
     title: "Galle Fort",
     city: "Galle",
     distance: 160,
-    price: 40,
+    price: 45,
     maxGroupSize: 10,
     desc: "Galle Fort is a UNESCO World Heritage Site, originally built by the Portuguese in the 16th century and then further developed by the Dutch and the British over the next 350 years. It covers nearly 4sqkm and is protected by 12 bastions and connecting ramparts.",
     reviews: [
@@ -90,7 +90,7 @@ const tours = [
     title: "Nuwara Eliya",
     city: "Nuwara Eliya",
     distance: 150,
-    price: 60,
+    price: 75,
     maxGroupSize: 8,
     desc: "Surrounded by hills and mountains Nuwara Eliya is a valley nestling among them. Originally there were no trees and it was a Patana. Famous for its cool English climate and rich soil which helps in the tea plantations, Nuwara Eliya has many water falls and streams and boasts of rare fauna and flora.",
     reviews: [
@@ -105,7 +105,7 @@ const tours = [
   },
   {
     id: "06",
-    title: "Madu ganga boat safari",
+    title: "Madu Ganga Boat Safari",
     city: "Balapitiya",
     distance: 80,
     price: 30,
@@ -126,7 +126,7 @@ const tours = [
     title: "Safari Tour in Yala National Park",
     city: "South Eastern Corner ",
     distance: 160,
-    price: 70,
+    price: 80,
     maxGroupSize: 8,
     desc: "Yala National Park is home to an extensive variety of 44 varieties of mammal and over 215 bird species, including at least 7 endemics. Among the residents are one of the highest densities of elusive leopards, resident herds of majestic elephants, sloth bears, sambars, jackals, spotted deer, and crocodiles.",
     reviews: [],
@@ -139,7 +139,7 @@ const tours = [
     title: "Colombo",
     city: "Colombo",
     distance: 60,
-    price: 29,
+    price: 25,
     maxGroupSize: 8,
     desc: "Situated on the west coast of the island, just south of the Kelani River, Colombo is a principal port on the Indian Ocean. It has one of the largest artificial harbours in the world and handles the majority of Sri Lanka's foreign trade.",
     reviews: [],
