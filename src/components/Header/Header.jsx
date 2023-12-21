@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import { Button, Container, Row } from 'reactstrap'
 import logo from "../../assets/images/logo.png";
 import './header.css'
@@ -19,9 +19,31 @@ const nav__links = [
   },
 ];
 
+
+
 const Header = () => {
+
+  const headerRef = useRef(null)
+
+  const stickyHeaderfun = () => {
+    window.addEventListener('scroll', () => {
+      if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
+        headerRef.current.classList.add('sticky__header')
+      } else {
+        headerRef.current.classList.remove('sticky__header')
+      }
+    })
+  }
+
+  useEffect(() => {
+    stickyHeaderfun();
+
+    return window.removeEventListener('scroll', stickyHeaderfun)
+  })
+
+
   return (
-    <header className="header">
+    <header className="header" ref={headerRef}>
       <Container>
         <Row>
           <div className='nav__wrapper d-flex align-items-center justify-content-between'>
