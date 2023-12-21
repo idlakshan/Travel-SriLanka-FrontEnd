@@ -13,6 +13,7 @@ import ServicesList from '../Services/ServicesList'
 import FeaturedTourList from '../featuredTours/FeaturedTourList'
 import MasonryImagesgallery from '../components/image-gallery/MasonryImagesgallery'
 import Testimonials from '../testimonial/Testimonials'
+import Newsletter from '../shared/Newsletter'
 
 const Home = () => {
   return (
@@ -152,6 +153,8 @@ const Home = () => {
               </Row>
             </Container>
           </section>
+
+          <Newsletter/>
 
     </>
   )
