@@ -11,6 +11,7 @@ import sriLankaImg from './../assets/images/srilanka.png'
 import SearchBar from '../shared/SearchBar'
 import ServicesList from '../Services/ServicesList'
 import FeaturedTourList from '../featuredTours/FeaturedTourList'
+import MasonryImagesgallery from '../components/image-gallery/MasonryImagesgallery'
 
 const Home = () => {
   return (
@@ -117,6 +118,24 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+
+        {/* ------------Gallery Section------------ */}
+
+        <section>
+          <Container>
+            <Row>
+              <Col lg="12">
+                <Subtitle subtitle={"Gallery"}/>
+                <h2 className="gallery__title">
+                  Visit our Customers tour gallery
+                </h2>
+              </Col>
+              <Col lg="12">
+                <MasonryImagesgallery/>
+              </Col>
+            </Row>
+          </Container>
+        </section>
 
     </>
   )
